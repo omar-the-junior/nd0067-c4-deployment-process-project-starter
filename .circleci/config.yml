@@ -27,8 +27,9 @@ jobs:
       # TODO: Install dependencies in the the backend API
       - run:
           name: Install API Dependencies
+          # The removeValidatorError removes a validator folder in node_modules which it's existence generates a typescript error.
           command: |
-            npm run api:install
+            npm run api:install && removeValidatorError 
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
@@ -59,7 +60,7 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
-            npm run install && npm run build && npm run deploy
+            npm run install && npm run removeValidatorError && npm run build && npm run deploy
 
 workflows:
   udagram:

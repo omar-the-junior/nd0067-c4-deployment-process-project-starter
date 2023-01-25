@@ -13,6 +13,7 @@
     "api:deploy": "cd udagram/udagram-api && npm run deploy",
     "deploy": "npm run api:deploy && npm run frontend:deploy",
     "install": "npm run api:install && npm run frontend:install",
-    "build": "npm run api:build && npm  run frontend:build"
+    "build": "npm run api:build && npm  run frontend:build",
+    "removeValidatorError": "cd udagram/udagram-api/node_modules/@types/ && rm -rf validator"
   }
 }
