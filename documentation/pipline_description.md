@@ -1,5 +1,5 @@
 # pipeline process
-!["pipeline diagram"](../diagrams/pipeline.png "pipeline diagram")
+!["pipeline diagram"](../diagrams/pipeline%20diagram.jpg "pipeline diagram")
 
 ## build workflow
 !["build workflow steps"](../screenshots/build-workflow.png "build workflow steps")
