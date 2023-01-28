@@ -2,7 +2,7 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/omar-the-junior/nd0067-c4-deployment-process-project-starter/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/omar-the-junior/nd0067-c4-deployment-process-project-starter/tree/master)
 
-## [Application frontend](https://udagram-project-bucket123.s3.amazonaws.com/index.html)
+## [Application frontend](http://udagram-project-bucket123.s3-website.us-east-1.amazonaws.com)
 
 #  AWS console screenshots 
 ![elasticbeanstalk status](/screenshots/AWS-elasticbeanstalk-status.png "elasticbeanstalk status")
